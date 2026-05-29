@@ -155,7 +155,7 @@ lunch-ninja/
 ## 🙏 致謝 Credits
 
 - 遊戲靈感來自 [Fruit Ninja](https://halfbrick.com/games/fruit-ninja/)
-- 菜單參考：台北市明倫國小營養午餐菜單
+- 菜單參考：台北市木柵國小營養午餐菜單
 - 字體：[Noto Sans TC](https://fonts.google.com/noto/specimen/Noto+Sans+TC) / [Silkscreen](https://fonts.google.com/specimen/Silkscreen)
 
 ---
