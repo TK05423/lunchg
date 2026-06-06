@@ -1,7 +1,8 @@
 # 🍱 午餐忍者 Lunch Ninja
 
 > 一款結合台灣國小營養午餐議題的切食物教育遊戲  
-> An educational food-slicing game based on Taiwan elementary school lunch themes
+> An educational food-slicing game based on Taiwan elementary school lunch themes  
+> 🏫 **國立政治大學 課堂期末專案 / National Chengchi University (NCCU) Class Final Project**
 
 ![Game Screenshot](docs/screenshot.png)
 
@@ -11,7 +12,7 @@
 
 ### 簡介
 
-**午餐忍者**是一款受《水果忍者》啟發的網頁遊戲，專為國小學生設計，透過遊戲化學習讓學生了解：
+**午餐忍者**是一款受《水果忍者》啟發的網頁遊戲，專為國小學生設計，本專案為國立政治大學的課堂期末專案。透過遊戲化學習讓學生了解：
 
 - 🥗 **健康飲食**：認識各種食材的營養價值
 - 🌱 **永續農業**：認識台灣在地食材與碳足跡概念
@@ -19,6 +20,10 @@
 
 ### 遊戲玩法
 
+本遊戲分為兩個階段：
+
+#### 🎮 第一階段：切食材挑戰 (動作敏捷度)
+玩家需要揮動刀光切碎畫面上飛出的食材：
 | 動作 | 效果 |
 |------|------|
 | 切到 🌱 在地食材 | +15～20 分，+營養值 |
@@ -27,8 +32,14 @@
 | 切到 💣 炸彈 | 扣一條生命 |
 | 食材沒切到飛出畫面 | 自動變剩食 +1 份 |
 
-**過關條件**：營養條集滿 100%  
-**失敗條件**：累積 5 份剩食 或 生命值歸零
+- **過關條件**：今日營養攝取條集滿 100% 即可進入第二階段。
+- **失敗條件**：累積 5 份剩食 或 生命值歸零（若失敗仍會進入第二階段答題，但結算評價會受到影響）。
+
+#### 📝 第二階段：午餐永續大考驗 (知識問答)
+第一階段結束後，將根據玩家在遊戲中**切到的食材**動態生成專屬題庫：
+- 共挑戰 **5 題單選題**（包含 3 題切中食材的背景知識題 + 2 題永續與剩食核心觀念題）。
+- 每答對一題可獲得 **100 分** 加分！
+- 答題完成後進行「永續午餐結算」，系統會依據總得分、剩食量與答對題數給予專屬的忍者封號與綠色評語，並呈現台灣剩食統計數據與永續飲食小知識。
 
 ### 快速開始
 
@@ -75,7 +86,7 @@ open index.html   # macOS
 
 ### Overview
 
-**Lunch Ninja** is a browser-based food-slicing game inspired by *Fruit Ninja*, designed for elementary school students in Taiwan to explore:
+**Lunch Ninja** is a browser-based food-slicing game inspired by *Fruit Ninja*, designed for elementary school students in Taiwan, created as a class final project at National Chengchi University (NCCU). It allows students to explore:
 
 - 🥗 **Healthy eating** — learn the nutritional value of different foods
 - 🌱 **Sustainable agriculture** — understand local ingredients and carbon footprint
@@ -83,6 +94,10 @@ open index.html   # macOS
 
 ### Gameplay
 
+The game consists of two stages:
+
+#### 🎮 Stage 1: Food-Slicing Challenge
+Slice nutritious ingredients while avoiding waste and bombs:
 | Action | Effect |
 |--------|--------|
 | Slice 🌱 local ingredients | +15–20 pts, +nutrition |
@@ -91,8 +106,14 @@ open index.html   # macOS
 | Slice 💣 bomb | Lose one life |
 | Miss an ingredient (falls off screen) | Auto-converts to food waste +1 |
 
-**Win condition**: Fill the nutrition bar to 100%  
-**Lose conditions**: Accumulate 5 food waste items OR lose all lives
+- **Win condition**: Fill the nutrition bar to 100% to proceed to the quiz.
+- **Lose conditions**: Accumulate 5 food waste items OR lose all lives (you still proceed to the quiz, but your final evaluation will be impacted).
+
+#### 📝 Stage 2: Lunch Sustainability Quiz
+After Stage 1, a quiz is dynamically generated based on the **ingredients you successfully sliced**:
+- Answer **5 multiple-choice questions** (3 questions based on your sliced ingredients, and 2 general sustainability/waste questions).
+- Each correct answer awards **+100 bonus points**.
+- Upon completion, you will receive a final evaluation with a unique title (e.g., *Ultimate Sustainability Master*, *Imperfect Beginner*) based on your score, waste level, and quiz accuracy, alongside educational facts.
 
 ### Quick Start
 
@@ -154,6 +175,7 @@ lunch-ninja/
 
 ## 🙏 致謝 Credits
 
+- **本專案為國立政治大學（NCCU）課程之期末專案 / Created as a class final project at National Chengchi University**
 - 遊戲靈感來自 [Fruit Ninja](https://halfbrick.com/games/fruit-ninja/)
 - 菜單參考：台北市木柵國小營養午餐菜單
 - 字體：[Noto Sans TC](https://fonts.google.com/noto/specimen/Noto+Sans+TC) / [Silkscreen](https://fonts.google.com/specimen/Silkscreen)
