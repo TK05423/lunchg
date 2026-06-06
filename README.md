@@ -155,9 +155,8 @@ Scores are based on **sustainability**, not just nutrition:
 ```
 lunch-ninja/
 ├── index.html          # 遊戲主檔 / Main game file
-├── README.md           # 說明文件 / Documentation
-└── docs/
-    └── screenshot.png  # 截圖 / Screenshot (add manually)
+└── README.md           # 說明文件 / Documentation
+
 ```
 
 ---
