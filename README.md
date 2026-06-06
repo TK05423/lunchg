@@ -4,8 +4,6 @@
 > An educational food-slicing game based on Taiwan elementary school lunch themes  
 > 🏫 **國立政治大學 課堂期末專案 / National Chengchi University (NCCU) Class Final Project**
 
-![Game Screenshot](docs/screenshot.png)
-
 ---
 
 ## 🇹🇼 中文說明
