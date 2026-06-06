@@ -50,7 +50,7 @@ open index.html   # macOS
 # 或直接用瀏覽器開啟 index.html
 ```
 
-或直接線上遊玩：**[GitHub Pages 連結](#)** *(部署後填入)*
+或直接線上遊玩：**[午餐忍者線上版](https://lunchg.vercel.app)**
 
 ### 食材清單
 
