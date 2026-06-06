@@ -154,9 +154,14 @@ Scores are based on **sustainability**, not just nutrition:
 
 ```
 lunch-ninja/
-├── index.html          # 遊戲主檔 / Main game file
-└── README.md           # 說明文件 / Documentation
-
+├── index.html          # 遊戲主網頁 / Main game entry page
+├── README.md           # 專案說明文件 / Documentation
+├── css/
+│   └── style.css       # 遊戲樣式表 / Game stylesheet
+└── js/
+    ├── data.js         # 食材與問答資料庫 / Ingredient & quiz database
+    ├── game.js         # 第一階段切食材邏輯 / Slicing game logic & engine
+    └── quiz.js         # 第二階段問答與結算邏輯 / Quiz phase & evaluation logic
 ```
 
 ---
