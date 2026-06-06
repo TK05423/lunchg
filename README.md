@@ -73,7 +73,7 @@ open index.html   # macOS
 
 ### 技術規格
 
-- **純靜態網頁**：單一 `index.html`，無需後端、無需安裝
+- **純靜態網頁**：無需後端、無需安裝，以瀏覽器開啟 `index.html` 即可遊玩
 - **相容性**：Chrome / Firefox / Safari / Edge 最新版本
 - **行動裝置**：支援觸控操作（touchmove）
 - **字體**：Noto Sans TC（Google Fonts）+ Silkscreen
@@ -143,7 +143,7 @@ Scores are based on **sustainability**, not just nutrition:
 
 ### Technical Specs
 
-- **Pure static page**: Single `index.html`, no backend, no build step
+- **Pure static page**: No backend or installation required, simply open `index.html` in a browser
 - **Compatibility**: Latest Chrome / Firefox / Safari / Edge
 - **Mobile**: Touch support via `touchmove`
 - **Fonts**: Noto Sans TC (Google Fonts) + Silkscreen
